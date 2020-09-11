@@ -1,0 +1,17 @@
+phonenumbers:
+     country1:
+        name: India
+        prefix: +91
+        format: ^[6-9]{2}\d{2}\-\d{3}\-\d{4}$
+     country2:
+        name: USA
+        prefix: +1
+        format: ^[6-9]{1}\d{2}\-\d{3}\-\d{3}$
+     country3:
+        name: Australia
+        prefix: +61
+        format: ^[6-9]{1}\d{2}\-\d{3}\-\d{3}$
+     country4:
+        name: Pakistan
+        prefix: +92
+        format: ^[6-9]{1}\d{2}\-\d{3}\-\d{4}$

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+
+    <script> history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+    </script>
+    <style>
+    .message{
+    	padding: 100px;
+    	font-weight: bold;
+    	font-size: 30px;
+    	color: #0066cc;
+    }
+    </style>
+</head>
+<body align="center">
+    <div class=message>
+    <label>Thank You</label></div>
+</body>
+</html>
